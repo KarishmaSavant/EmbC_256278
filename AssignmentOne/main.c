@@ -1,8 +1,8 @@
 
 /**
  * @file main.c
- * @author your name (you@domain.com)
- * @brief 
+ * @author KarishmaSavant
+ * @brief LED heater and seat occupancy
  * @version 0.1
  * @date 2021-04-24
  * 
@@ -11,7 +11,11 @@
  */
 
 #include <avr/io.h>
-
+/**
+ * @brief Turn on LED if both switches close
+ * 
+ * @return int return
+ */
 int main(void)
 {
 
