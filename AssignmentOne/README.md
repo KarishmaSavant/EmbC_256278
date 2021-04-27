@@ -6,7 +6,7 @@
 ## Case 2: Driver's seat unoccupied, Heater is on
 ![OFF](https://github.com/KarishmaSavant/EmbC_256278/blob/main/AssignmentOne/simulation/Capture1.png)
 ## Case 3: Driver's seat unoccupied, Heater is off
-
+![OFF](https://github.com/KarishmaSavant/EmbC_256278/blob/main/AssignmentOne/simulation/Capture4.png)
 
 # LED ON
 ## Driver's Seat Occupied & Heater Turned ON
