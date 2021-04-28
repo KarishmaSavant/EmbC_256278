@@ -1,1 +1,1 @@
-@mainpage AssignmentOne by Karishma Savant @subpage EmbProjectMain.c @subpage fuse.c
+@mainpage EMBC by Karishma Savant @subpage EmbProjectMain.c @subpage activity1.c
