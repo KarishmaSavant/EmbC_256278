@@ -7,7 +7,7 @@
 ### Case 3: Driver's seat is UNOCCUPIED, Heater is OFF
 ![OFF](Capture4.png)
 ## LED ON 
-### Case 1: Driver's seat is UNOCCUPIED, Heater is OFF
+### Case 1: Driver's seat is OCCUPIED, Heater is ON
 ![ON](Capture3.png)
 
 
