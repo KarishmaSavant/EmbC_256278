@@ -3,7 +3,7 @@ BUILD_DIR = Build
 
 # All Source code files
 SRC = EmbProjectMain.c\
-src\activity1.c
+src/activity1.c
 
 
 # All header file paths
