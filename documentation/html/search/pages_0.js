@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['assignmentone_20by_20karishma_20savant_20_40subpage_20embprojectmain_2ec_20_40subpage_20fuse_2ec_2',['AssignmentOne by Karishma Savant @subpage EmbProjectMain.c @subpage fuse.c',['../index.html',1,'']]]
+  ['embc_20by_20karishma_20savant_20_40subpage_20embprojectmain_2ec_20_40subpage_20activity1_2ec_20_40subpage_20activity1_2eh_20_40subpage_20activity2_2ec_20_40subpage_20activity2_2eh_24',['EMBC by Karishma Savant @subpage EmbProjectMain.c @subpage activity1.c @subpage activity1.h @subpage activity2.c @subpage activity2.h',['../index.html',1,'']]],
+  ['embc_5f256278_25',['EmbC_256278',['../md_C__Users_Admin_Desktop_KARISHMA_EMB_GIT_EmbC_256278_README.html',1,'']]]
 ];

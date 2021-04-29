@@ -1,1 +1,1 @@
-@mainpage EMBC by Karishma Savant @subpage EmbProjectMain.c @subpage activity1.c @subpage activity1.h
+@mainpage EMBC by Karishma Savant @subpage EmbProjectMain.c @subpage activity1.c @subpage activity1.h @subpage activity2.c @subpage activity2.h
