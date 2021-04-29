@@ -6,7 +6,8 @@ SF ID. |  Name   |
 -------|---------|
 `256278` | Karishma Vivek Savant  |
 
-# Activity 1: ##Turning on an LED when both Driver's Seat is OCCUPIED and Heater is turned ON
+# Activity 1: 
+## Turning on an LED when both Driver's Seat is OCCUPIED and Heater is turned ON
 ## LED OFF 
 ### Case 1: Driver's seat is OCCUPIED, Heater is OFF
 ![OFF](simulation/Capture2.png)
