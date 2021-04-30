@@ -2,7 +2,7 @@ PROJ_NAME = Embedded_Project
 
 BUILD_DIR = Build
 
-# All Source code files
+# All the Source code files
 SRC = EmbProjectMain.c\
 src/activity1.c\
 src/activity2.c\

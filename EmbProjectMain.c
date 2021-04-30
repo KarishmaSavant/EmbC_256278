@@ -37,7 +37,7 @@ while(1)
      * @brief Construct a new if object activity 1 output holds true
      * 
      */
-    if(activity1()==1)//if activity output is true
+    if(activity1()==1)//if activity1 output is true
     {
        temp=ReadADC(ADC_value);
         data=PWM(temp);
