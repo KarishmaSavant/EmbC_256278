@@ -61,6 +61,10 @@ char PWM(uint16_t temp_value)
        temp_over_protocol=33;
       _delay_ms(200);
     }
+    /**
+     * @brief else condition if emperature read from ADC is not in range
+     * 
+     */
     else
     {
         OCR1B=0;
