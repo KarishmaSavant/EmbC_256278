@@ -20,4 +20,10 @@ SF ID. |  Name   |
 ### Case 1: Driver's seat is OCCUPIED, Heater is ON
 ![ON](simulation/Capture3.png)
 
-
+# Activity 2: ADC Reading of Temperature Sensor Using Potentiometer
+## CASE: ADC Reader OFF 
+### Case 1: When Activity1 Conditions are False
+![OFF](simulation/Act2_1.png)
+## CASE: ADC Reader ON 
+### Case 1: When Activity1 Conditions are True
+![OFF](simulation/Act2_2.png)
