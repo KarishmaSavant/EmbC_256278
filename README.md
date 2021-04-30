@@ -36,4 +36,4 @@ SF ID. |  Name   |
 ### Case 1: When Activity1 Conditions are True
 ![OFF](simulation/Act3_2.png)
 
-# Activity 4: USART value of Temperature over protocol according to Temperature Table
+# Activity 4: UART value of Temperature over protocol according to Temperature Table
