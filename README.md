@@ -27,3 +27,11 @@ SF ID. |  Name   |
 ## CASE: ADC Reader ON 
 ### Case 1: When Activity1 Conditions are True
 ![OFF](simulation/Act2_2.png)
+
+# Activity 3: PWM Output according to ADC Reading based on Temperature Table
+## CASE: PWM Reader OFF 
+### Case 1: When Activity1 Conditions are False
+![OFF](simulation/Act3_1.png)
+## CASE: PWM Reader ON 
+### Case 1: When Activity1 Conditions are True
+![OFF](simulation/Act3_2.png)
