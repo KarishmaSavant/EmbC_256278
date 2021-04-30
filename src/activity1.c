@@ -1,19 +1,20 @@
 /**
  * @file activity1.c
  * @author KarishmaSavant
- * @brief LED on when Heater on and Seat is Occupied
+ * @brief LED on if Seat Occupied and Heater is ON
  * @version 0.1
  * @date 2021-04-29
  * 
  * @copyright Copyright (c) 2021
  * 
  */
+
 #include <avr/io.h>
 #include <util/delay.h>
-#include <activity1.h>
+#include "activity1.h"
 
 /**
- * @brief port assignments
+ * @brief Port Assignments
  * 
  */
 void port_assignment()
@@ -29,27 +30,21 @@ void port_assignment()
     DDRB|=(1<<LED);//output LED
 }
 /**
- * @brief Initiating Activity1
+ * @brief Activity1 definition for LED ON Condition
  * 
  * @return int 
  */
 int activity1(void)
 {
-/**
- * @brief Construct a new port assignment object
- * 
- */
+
 port_assignment();//Calling port assignments
-/**
- * @brief while true enter loop
- * 
- */
+
 while(1)
 {
 /**
- * @brief Construct a new if object and turn on LED if
+ * @brief Construct a new if object of LED ON if
  * 
- * @param heater_switch_close and @param seat_switch_close
+ * @param heater_switch_close and @param seat_switch_close is met
  */
 if((heater_switch_close) && (seat_switch_close)) //if both switches CLOSE
 {
@@ -57,11 +52,11 @@ if((heater_switch_close) && (seat_switch_close)) //if both switches CLOSE
     _delay_ms(100);
 }
 
+
 /**
- * @brief if condition not met LED is OFF
+ * @brief else LED OFF
  * 
  */
-
 else
 {
     PORTB&=~(1<<LED);//LED OFF

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.9.1"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Activity1: EmbC_256278</title>
+<title>Activity1: C:/Users/Admin/Desktop/KARISHMA_EMB_GIT/EmbC_256278/src/activity3.c File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -63,7 +63,7 @@ $(function() {
 </div>
 <script type="text/javascript">
 /* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
-$(document).ready(function(){initNavTree('md_C__Users_Admin_Desktop_KARISHMA_EMB_GIT_EmbC_256278_README.html',''); initResizable(); });
+$(document).ready(function(){initNavTree('activity3_8c.html',''); initResizable(); });
 /* @license-end */
 </script>
 <div id="doc-content">
@@ -81,43 +81,70 @@ $(document).ready(function(){initNavTree('md_C__Users_Admin_Desktop_KARISHMA_EMB
 </iframe>
 </div>
 
-<div class="PageDoc"><div class="header">
+<div class="header">
+  <div class="summary">
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
-<div class="title">EmbC_256278 </div>  </div>
+<div class="title">activity3.c File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><h1><a class="anchor" id="autotoc_md1"></a>
-Contributors</h1>
-<table class="markdownTable">
-<tr class="markdownTableHead">
-<th class="markdownTableHeadNone">SF ID.   </th><th class="markdownTableHeadNone">Name    </th></tr>
-<tr class="markdownTableRowOdd">
-<td class="markdownTableBodyNone"><code>256278</code>   </td><td class="markdownTableBodyNone">Karishma Vivek Savant   </td></tr>
+
+<p>PWM assignment as per ADC values read.  
+<a href="#details">More...</a></p>
+<div class="textblock"><code>#include &lt;avr/io.h&gt;</code><br />
+<code>#include &lt;util/delay.h&gt;</code><br />
+<code>#include &quot;<a class="el" href="activity3_8h_source.html">activity3.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:aadae3fe77e36cbf9643a22eeb99fb01e"><td class="memItemLeft" align="right" valign="top"><a id="aadae3fe77e36cbf9643a22eeb99fb01e"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="activity3_8c.html#aadae3fe77e36cbf9643a22eeb99fb01e">PWM_init</a> (void)</td></tr>
+<tr class="memdesc:aadae3fe77e36cbf9643a22eeb99fb01e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initialization of PWM ports and registers. <br /></td></tr>
+<tr class="separator:aadae3fe77e36cbf9643a22eeb99fb01e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a986e05705aaf36456323c07ad4177285"><td class="memItemLeft" align="right" valign="top">char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="activity3_8c.html#a986e05705aaf36456323c07ad4177285">PWM</a> (uint16_t temp_value)</td></tr>
+<tr class="memdesc:a986e05705aaf36456323c07ad4177285"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigning PWM as per Temp Table given in assignment.  <a href="activity3_8c.html#a986e05705aaf36456323c07ad4177285">More...</a><br /></td></tr>
+<tr class="separator:a986e05705aaf36456323c07ad4177285"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h1><a class="anchor" id="autotoc_md2"></a>
-Activity 1: LED ON when both Driver's Seat is Occupied and Heater is turned ON</h1>
-<h2><a class="anchor" id="autotoc_md3"></a>
-CASE: LED OFF</h2>
-<h3><a class="anchor" id="autotoc_md4"></a>
-Case 1: Driver's seat is OCCUPIED, Heater is OFF</h3>
-<p><img src="Capture2.png" alt="" class="inline" title="OFF"/> </p>
-<h3><a class="anchor" id="autotoc_md5"></a>
-Case 2: Driver's seat is UNOCCUPIED, Heater is ON</h3>
-<p><img src="Capture1.png" alt="" class="inline" title="OFF"/> </p>
-<h3><a class="anchor" id="autotoc_md6"></a>
-Case 3: Driver's seat is UNOCCUPIED, Heater is OFF</h3>
-<p><img src="Capture4.png" alt="" class="inline" title="OFF"/> </p>
-<h2><a class="anchor" id="autotoc_md7"></a>
-CASE: LED ON</h2>
-<h3><a class="anchor" id="autotoc_md8"></a>
-Case 1: Driver's seat is OCCUPIED, Heater is ON</h3>
-<p><img src="Capture3.png" alt="" class="inline" title="ON"/> </p>
-</div></div><!-- contents -->
-</div><!-- PageDoc -->
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>PWM assignment as per ADC values read. </p>
+<dl class="section author"><dt>Author</dt><dd>KarishmaSavant </dd></dl>
+<dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
+<dl class="section date"><dt>Date</dt><dd>2021-04-29</dd></dl>
+<dl class="section copyright"><dt>Copyright</dt><dd>Copyright (c) 2021 </dd></dl>
+</div><h2 class="groupheader">Function Documentation</h2>
+<a id="a986e05705aaf36456323c07ad4177285"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a986e05705aaf36456323c07ad4177285">&#9670;&nbsp;</a></span>PWM()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char PWM </td>
+          <td>(</td>
+          <td class="paramtype">uint16_t&#160;</td>
+          <td class="paramname"><em>temp_value</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Assigning PWM as per Temp Table given in assignment. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">temp_value</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>char </dd></dl>
+
+</div>
+</div>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="activity3_8c.html">activity3.c</a></li>
     <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.1 </li>
   </ul>
 </div>

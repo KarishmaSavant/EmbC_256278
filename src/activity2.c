@@ -1,7 +1,7 @@
 /**
  * @file activity2.c
  * @author KarishmaSavant
- * @brief ADC reader Ativity2
+ * @brief ADC Reader from Potentiometer as Temp Sensor
  * @version 0.1
  * @date 2021-04-29
  * 
@@ -10,10 +10,10 @@
  */
 #include <avr/io.h>
 #include <util/delay.h>
-#include <activity2.h>
+#include "activity2.h"
 
 /**
- * @brief Initializing ADC registers
+ * @brief Initialization of ADC parameters and ports
  * 
  */
 void InitADC()
@@ -23,7 +23,7 @@ ADMUX=(1<<REFS0); //For Aref=AVcc;
 ADCSRA=(1<<ADEN)|(7<<ADPS0);//ADEN enables ADC
 }
 /**
- * @brief Reading the ADC when conditions of activity 1 are met and is called
+ * @brief Reading ADC Function Definition
  * 
  * @param ch 
  * @return uint16_t 

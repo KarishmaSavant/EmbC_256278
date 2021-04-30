@@ -90,7 +90,7 @@ $(document).ready(function(){initNavTree('activity1_8h.html',''); initResizable(
 </div><!--header-->
 <div class="contents">
 
-<p>activity1 header file of declarations and macros  
+<p>Activity1 Header File.  
 <a href="#details">More...</a></p>
 
 <p><a href="activity1_8h_source.html">Go to the source code of this file.</a></p>
@@ -99,7 +99,7 @@ $(document).ready(function(){initNavTree('activity1_8h.html',''); initResizable(
 Macros</h2></td></tr>
 <tr class="memitem:ab62f072c48ada95ea4c0aaafb79ef24c"><td class="memItemLeft" align="right" valign="top"><a id="ab62f072c48ada95ea4c0aaafb79ef24c"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="activity1_8h.html#ab62f072c48ada95ea4c0aaafb79ef24c">heater_switch_close</a>&#160;&#160;&#160;!(PIND&amp;(1&lt;&lt;PD2))</td></tr>
-<tr class="memdesc:ab62f072c48ada95ea4c0aaafb79ef24c"><td class="mdescLeft">&#160;</td><td class="mdescRight">definition of macros <br /></td></tr>
+<tr class="memdesc:ab62f072c48ada95ea4c0aaafb79ef24c"><td class="mdescLeft">&#160;</td><td class="mdescRight">definition of macros and function declarations <br /></td></tr>
 <tr class="separator:ab62f072c48ada95ea4c0aaafb79ef24c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59a684956448eb7e3858e8d3bf6050d3"><td class="memItemLeft" align="right" valign="top"><a id="a59a684956448eb7e3858e8d3bf6050d3"></a>
 #define&#160;</td><td class="memItemRight" valign="bottom"><b>seat_switch_close</b>&#160;&#160;&#160;!(PIND&amp;(1&lt;&lt;PD3))</td></tr>
@@ -116,15 +116,16 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ab3b761047449f5e083ab086370168767"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="activity1_8h.html#ab3b761047449f5e083ab086370168767">port_assignment</a> ()</td></tr>
-<tr class="memdesc:ab3b761047449f5e083ab086370168767"><td class="mdescLeft">&#160;</td><td class="mdescRight">function declarations  <a href="activity1_8h.html#ab3b761047449f5e083ab086370168767">More...</a><br /></td></tr>
+<tr class="memitem:ab3b761047449f5e083ab086370168767"><td class="memItemLeft" align="right" valign="top"><a id="ab3b761047449f5e083ab086370168767"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="activity1_8h.html#ab3b761047449f5e083ab086370168767">port_assignment</a> ()</td></tr>
+<tr class="memdesc:ab3b761047449f5e083ab086370168767"><td class="mdescLeft">&#160;</td><td class="mdescRight">Port Assignments. <br /></td></tr>
 <tr class="separator:ab3b761047449f5e083ab086370168767"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a724a11513213754473d2bba7c67c39f5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="activity1_8h.html#a724a11513213754473d2bba7c67c39f5">activity1</a> ()</td></tr>
-<tr class="memdesc:a724a11513213754473d2bba7c67c39f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initiating Activity1.  <a href="activity1_8h.html#a724a11513213754473d2bba7c67c39f5">More...</a><br /></td></tr>
+<tr class="memdesc:a724a11513213754473d2bba7c67c39f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Activity1 definition for LED ON Condition.  <a href="activity1_8h.html#a724a11513213754473d2bba7c67c39f5">More...</a><br /></td></tr>
 <tr class="separator:a724a11513213754473d2bba7c67c39f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><p>activity1 header file of declarations and macros </p>
+<div class="textblock"><p>Activity1 Header File. </p>
 <dl class="section author"><dt>Author</dt><dd>KarishmaSavant </dd></dl>
 <dl class="section version"><dt>Version</dt><dd>0.1 </dd></dl>
 <dl class="section date"><dt>Date</dt><dd>2021-04-29</dd></dl>
@@ -146,39 +147,17 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p>Initiating Activity1. </p>
+<p>Activity1 definition for LED ON Condition. </p>
 <dl class="section return"><dt>Returns</dt><dd>int </dd></dl>
-<p>Construct a new port assignment object</p>
-<p>while true enter loop</p>
-<p>Construct a new if object and turn on LED if</p>
+<p>Construct a new if object of LED ON if</p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
     <tr><td class="paramname">heater_switch_close</td><td>and</td></tr>
-    <tr><td class="paramname">seat_switch_close</td><td></td></tr>
+    <tr><td class="paramname">seat_switch_close</td><td>is met</td></tr>
   </table>
   </dd>
 </dl>
-<p>if condition not met LED is OFF</p>
-
-</div>
-</div>
-<a id="ab3b761047449f5e083ab086370168767"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab3b761047449f5e083ab086370168767">&#9670;&nbsp;</a></span>port_assignment()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">void port_assignment </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>function declarations </p>
-<p>function declarations </p>
+<p>else LED OFF</p>
 
 </div>
 </div>

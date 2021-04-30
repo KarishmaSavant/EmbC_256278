@@ -1,7 +1,7 @@
 /**
  * @file activity1.h
  * @author KarishmaSavant
- * @brief activity1 header file of declarations and macros
+ * @brief Activity1 Header File
  * @version 0.1
  * @date 2021-04-29
  * 
@@ -11,7 +11,7 @@
 #ifndef ACTIVITY1_H_INCLUDED
 #define ACTIVITY1_H_INCLUDED
 /**
- * @brief definition of macros
+ * @brief definition of macros and function declarations
  * 
  */
 #define heater_switch_close !(PIND&(1<<PD2))
@@ -19,10 +19,7 @@
 #define LED (PORTB1)
 #define heater (PORTD2)
 #define seat (PORTD3)
-/**
- * @brief function declarations
- * 
- */
+
 void port_assignment();
 int activity1();
 
