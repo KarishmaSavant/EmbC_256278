@@ -12,7 +12,7 @@
 #include <util/delay.h>
 #include "activity4.h"
 /**
- * @brief USART Initialization of Registers and ports
+ * @brief USART Initialization of Registers and Ports
  * 
  * @param ubrr_value 
  */
