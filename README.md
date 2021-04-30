@@ -35,3 +35,5 @@ SF ID. |  Name   |
 ## CASE: PWM Reader ON 
 ### Case 1: When Activity1 Conditions are True
 ![OFF](simulation/Act3_2.png)
+
+# Activity 4: USART value of Temperature over protocol according to Temperature Table
