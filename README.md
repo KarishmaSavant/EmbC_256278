@@ -1,8 +1,7 @@
 # EmbC_256278
 |Build|Cppcheck|Codacy|
 |:--:|:--:|:--:|
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/31b88e5c0d354c8392b150ab8354ec68)](https://app.codacy.com/gh/KarishmaSavant/EmbC_256278?utm_source=github.com&utm_medium=referral&utm_content=KarishmaSavant/EmbC_256278&utm_campaign=Badge_Grade_Settings)
-|[![Compile-Linux](https://github.com/KarishmaSavant/EmbC_256278/actions/workflows/Compile.yml/badge.svg)](https://github.com/KarishmaSavant/EmbC_256278/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/KarishmaSavant/EmbC_256278/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/KarishmaSavant/EmbC_256278/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f862c98b89d9412795b8f90a0105cc7d)](https://www.codacy.com/gh/KarishmaSavant/EmbC_256278/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=KarishmaSavant/EmbC_256278&amp;utm_campaign=Badge_Grade)|
+|[![Compile-Linux](https://github.com/KarishmaSavant/EmbC_256278/actions/workflows/Compile.yml/badge.svg)](https://github.com/KarishmaSavant/EmbC_256278/actions/workflows/Compile.yml)|[![Cppcheck](https://github.com/KarishmaSavant/EmbC_256278/actions/workflows/CodeQuality.yml/badge.svg)](https://github.com/KarishmaSavant/EmbC_256278/actions/workflows/CodeQuality.yml)|[![Codacy Badge](https://api.codacy.com/project/badge/Grade/31b88e5c0d354c8392b150ab8354ec68)](https://app.codacy.com/gh/KarishmaSavant/EmbC_256278?utm_source=github.com&utm_medium=referral&utm_content=KarishmaSavant/EmbC_256278&utm_campaign=Badge_Grade_Settings)|
 ## Contributors 
 
 SF ID. |  Name   |     
